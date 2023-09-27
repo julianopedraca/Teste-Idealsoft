@@ -12,3 +12,6 @@ WPF (Windows Presentatio Foundation) CRUD que interage com a API. A aplicação 
 - Atualizar um contato do banco de dados
 - Deletar contato do banco de dados
 
+## Adicionar Contato
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/adicionarContato1.png?raw=true)
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/adicionarContato2.png?raw=true)
