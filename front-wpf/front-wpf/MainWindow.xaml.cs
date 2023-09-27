@@ -52,7 +52,7 @@ namespace front_wpf
             }
             else
             {
-                MessageBox.Show("Error fetching data from API");
+                MessageBox.Show("Error na comunicação com API");
             }
         }
 
@@ -73,12 +73,12 @@ namespace front_wpf
 
             if (response.IsSuccessStatusCode)
             {
-                MessageBox.Show("Record added successfully");
+                MessageBox.Show("Contato Adicionado com Sucesso");
                 LoadDataFromApi();
             }
             else
             {
-                MessageBox.Show("Error adding record");
+                MessageBox.Show("Error ao adicionar contato");
             }
         }
 
@@ -87,7 +87,7 @@ namespace front_wpf
 
             if (!int.TryParse(TextBoxId.Text, out int id))
             {
-                MessageBox.Show("Invalid ID. Please enter a valid numeric ID.");
+                MessageBox.Show("ID invalido.");
                 return;
             }
 
@@ -107,12 +107,12 @@ namespace front_wpf
 
                 if (response.IsSuccessStatusCode)
                 {
-                    MessageBox.Show("Record updated successfully");
+                    MessageBox.Show("Contato atualizado com sucesso");
                     LoadDataFromApi();
                 }
                 else
                 {
-                    MessageBox.Show("Error updating record");
+                    MessageBox.Show("Erro ao atualizar contato");
                 }
             }
 
@@ -123,7 +123,7 @@ namespace front_wpf
 
             if (!int.TryParse(TextBoxId.Text, out int id))
             {
-                MessageBox.Show("Invalid ID. Please enter a valid numeric ID.");
+                MessageBox.Show("Id invalido.");
                 return;
             }
 
@@ -132,12 +132,12 @@ namespace front_wpf
 
                 if (response.IsSuccessStatusCode)
                 {
-                    MessageBox.Show("Record deleted successfully");
+                    MessageBox.Show("Contato deletado com sucesso");
                     LoadDataFromApi();
                 }
                 else
                 {
-                    MessageBox.Show("Error deleting record");
+                    MessageBox.Show("Error ao deletar contato");
                 }
             }
         }
