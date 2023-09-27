@@ -15,3 +15,11 @@ WPF (Windows Presentatio Foundation) CRUD que interage com a API. A aplicação 
 ## Adicionar Contato
 ![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/adicionarContato1.png?raw=true)
 ![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/adicionarContato2.png?raw=true)
+
+## Atualizar Contato
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/atualizarContato1.png?raw=true)
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/atualizarContato2.png?raw=true)
+
+## Excluir Contato
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/excluirContato1.png?raw=true)
+![alt text](https://github.com/julianopedraca/Teste-Idealsoft/blob/main/assets/excluirContato2.png?raw=true)
