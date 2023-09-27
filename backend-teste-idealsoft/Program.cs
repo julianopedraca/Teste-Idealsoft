@@ -4,8 +4,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<LivrosContext>(options => {
-    options.UseSqlServer("Server=localhost;Database=LivrariaDb;User Id=sa;Password=*******;TrustServerCertificate=True;");
+builder.Services.AddDbContext<AgendaContext>(options => {
+    options.UseSqlServer("Server=WINDEV2309EVAL;Database=AgendaDb;Trusted_Connection=True;TrustServerCertificate=True;");
 });
 
 builder.Services.AddControllers();

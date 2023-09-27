@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/juba-arch/Documents/Prog/asp.net/teste-tecnico-idealsoft/backend-teste-idealsoft/backend-teste-idealsoft.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\Teste-Idealsoft\\backend-teste-idealsoft\\backend-teste-idealsoft.csproj": {}
   },
   "projects": {
-    "/home/juba-arch/Documents/Prog/asp.net/teste-tecnico-idealsoft/backend-teste-idealsoft/backend-teste-idealsoft.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Teste-Idealsoft\\backend-teste-idealsoft\\backend-teste-idealsoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/juba-arch/Documents/Prog/asp.net/teste-tecnico-idealsoft/backend-teste-idealsoft/backend-teste-idealsoft.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Teste-Idealsoft\\backend-teste-idealsoft\\backend-teste-idealsoft.csproj",
         "projectName": "backend-teste-idealsoft",
-        "projectPath": "/home/juba-arch/Documents/Prog/asp.net/teste-tecnico-idealsoft/backend-teste-idealsoft/backend-teste-idealsoft.csproj",
-        "packagesPath": "/home/juba-arch/.nuget/packages/",
-        "outputPath": "/home/juba-arch/Documents/Prog/asp.net/teste-tecnico-idealsoft/backend-teste-idealsoft/obj/",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Teste-Idealsoft\\backend-teste-idealsoft\\backend-teste-idealsoft.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Teste-Idealsoft\\backend-teste-idealsoft\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/juba-arch/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +62,12 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -72,12 +84,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.11, 7.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
